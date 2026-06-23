@@ -4044,6 +4044,7 @@ footer{padding:60px 0;border-top:1px solid var(--line-soft);
 .pg-kn-hero-title{
   font-family:var(--ko);font-size:clamp(20px,2.2vw,28px);font-weight:800;
   color:var(--fg-100,#171719);line-height:1.45;letter-spacing:-.025em}
+.pg-kn-hero-foot{display:flex;flex-direction:row;justify-content:space-between;align-items:flex-end;gap:16px}
 .pg-kn-hero-speaker{display:flex;flex-direction:column;gap:5px;margin-top:4px}
 .pg-kn-hero-org{font-family:var(--ko);font-size:14px;color:var(--fg-45,#70737c)}
 .pg-kn-hero-name{font-family:var(--ko);font-size:22px;font-weight:800;color:var(--fg-100,#171719);letter-spacing:-.02em}
