@@ -1795,11 +1795,11 @@ footer{padding:60px 0;border-top:1px solid var(--line-soft);
 }
 .sc-no{font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.08em;
   color:color-mix(in srgb,var(--acc) 64%,#cfe2ff);margin-bottom:7px}
-.sc-title{font-size:16px;font-weight:700;line-height:1.45;letter-spacing:-.015em;color:#fff;
+.sc-title{flex:1;font-size:16px;font-weight:700;line-height:1.45;letter-spacing:-.015em;color:#fff;
   text-wrap:pretty;margin-bottom:16px;
   display:-webkit-box;-webkit-line-clamp:3;line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .sc-vid-ic{display:inline-flex;align-items:center;vertical-align:middle;position:relative;top:-1px;margin-right:4px;color:var(--acc,#3a6bff);flex-shrink:0}
-.sc-foot{margin-top:0}
+.sc-foot{margin-top:0;display:flex;flex-direction:column}
 .sc-co{font-size:13px;color:var(--fg-60);margin-bottom:3px}
 .sc-name{font-size:14.5px;font-weight:700;color:#fff;letter-spacing:-.01em}
 .sc.is-tbd .sc-name{color:var(--fg-80);font-weight:600}
@@ -1814,7 +1814,7 @@ footer{padding:60px 0;border-top:1px solid var(--line-soft);
   display:inline-flex;align-items:center;gap:6px;margin-top:14px;
   padding:7px 14px;border-radius:100px;border:1px solid rgba(255,255,255,.18);
   background:rgba(255,255,255,.07);color:rgba(255,255,255,.75);
-  font-size:13px;font-weight:600;font-family:var(--ko);
+  font-size:13px;font-weight:600;font-family:var(--ko);white-space:nowrap;
   cursor:pointer;transition:background .18s,border-color .18s,color .18s;
   align-self:flex-start}
 .sc-preview-btn svg{flex-shrink:0}
