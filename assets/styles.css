@@ -1803,6 +1803,7 @@ footer{padding:60px 0;border-top:1px solid var(--line-soft);
 .sc-co{font-size:13px;color:var(--fg-60);margin-bottom:3px}
 .sc-name{font-size:14.5px;font-weight:700;color:#fff;letter-spacing:-.01em}
 .sc.is-tbd .sc-name{color:var(--fg-80);font-weight:600}
+.sc.is-tbd .sc-foot::after{content:'';display:block;height:32px;margin-top:14px}
 .is-tbd .av-sil{opacity:.6}
 
 @media(max-width:1100px){.trz-row{grid-template-columns:repeat(3,1fr);gap:24px}}
